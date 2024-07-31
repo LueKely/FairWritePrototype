@@ -1,10 +1,10 @@
 <nav>
 	<ul>
 		<li>Logo</li>
-		<li>Edit</li>
-		<li>Scan</li>
-		<li>scan</li>
-		<li>exit</li>
+		<li><a href="/home/edit">Edit</a></li>
+		<li><a href="/home/scan">Scan</a></li>
+		<li><a href="/home/settings">Settings</a></li>
+		<li><button>Logout</button></li>
 	</ul>
 </nav>
 
@@ -12,15 +12,9 @@
 	nav {
 		height: 100%;
 		width: 5rem;
-		background-color: red;
-		display: flex;
+		outline: 1px solid purple;
 	}
 	ul {
-		flex: 1;
 		background-color: green;
-		display: flex;
-
-		justify-items: space-between;
-		flex-direction: column;
 	}
 </style>

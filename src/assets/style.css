@@ -1,5 +1,18 @@
+/* dumbass reset */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* this might backfire delete if neccessary */
+ol,
+ul {
+	list-style: none;
+}
+
 body {
-	/* width: 100dvw; */
 	height: 100%;
 	display: flex;
 	align-items: center;
